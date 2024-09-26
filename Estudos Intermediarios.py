@@ -54,4 +54,12 @@ def funcao_pai():
     return funcao_filha()
 _____________________________________________________
 """
+#Empacotamento
+"""
+*args -> Parâmetro que permite passar um número variável de argumentos para uma função.
+**kwargs -> Parâmetro que permite passar um número variável de argumentos nomeados para uma função.
+def minha_funcao(*args, **kwargs):
+    print(args)
+    print(kwargs)
+"""
 
