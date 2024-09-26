@@ -63,3 +63,18 @@ def minha_funcao(*args, **kwargs):
     print(kwargs)
 """
 
+#high order functions
+#Funções que aceitam outras funções como argumentos ou retornam funções.
+
+#Closure
+"""
+Uma closure é uma função que retorna outra função.
+A função interna tem acesso às variáveis locais da função externa.
+Closures são usadas para encapsular comportamentos relacionados.
+def funcao_pai():
+    variavel = 10
+    def funcao_filha():
+        return variavel
+    return funcao_filha
+_____________________________________________________
+"""
