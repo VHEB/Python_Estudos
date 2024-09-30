@@ -78,3 +78,25 @@ def funcao_pai():
     return funcao_filha
 _____________________________________________________
 """
+#Dicionários
+"""
+Dicionários são coleções de dados que armazenam pares chave-valor.
+Dicionários são mutáveis.
+Dicionários são indexados por chaves.
+Dicionários são criados com chaves {} ou a função dict().
+
+dicionario = {'chave': 'valor'}
+dict(chave='valor')
+pessoa = {
+    'nome': 'Vitor',
+    'sobrenome': 'Hugo',
+    'idade': 24,
+    'altura': 1.83,
+    'peso': 67,
+    'endereco': [
+        {'Rua': 'Rua 1', 'Numero': 123},
+        {'Rua': 'Rua 2', 'Numero': 456}
+    ]
+}
+
+"""
