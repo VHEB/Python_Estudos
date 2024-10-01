@@ -99,4 +99,18 @@ pessoa = {
     ]
 }
 
+Metodos uteis para dicionarios:
+pessoa.keys() -> Retorna uma lista com as chaves do dicionario
+pessoa.values() -> Retorna uma lista com os valores do dicionario
+pessoa.items() -> Retorna uma lista com tuplas contendo chave e valor
+pessoa.get('nome') -> Retorna o valor da chave 'nome'
+pessoa.__len__() ou len(pessoa) -> Retorna o tamanho do dicionario
+pessoa.setdefault('email', ' ') -> Retorna o valor da chave 'email' ou cria a chave com o valor ' '
+pessoa.copy() -> Retorna uma copia do dicionario
+pessoa.clear() -> Limpa o dicionario
+pessoa.pop('nome') -> Remove a chave 'nome' do dicionario
+pessoa.popitem() -> Remove a ultima chave adicionada no dicionario
+pessoa.update({'nome': 'Vitor Hugo'}) -> Atualiza o valor da chave 'nome' para 'Vitor Hugo'
+pessoa.fromkeys(['nome', 'sobrenome'], ' ') -> Cria um dicionario com as chaves 'nome' e 'sobrenome' e o valor ' '
+
 """
