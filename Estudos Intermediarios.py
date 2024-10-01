@@ -114,3 +114,31 @@ pessoa.update({'nome': 'Vitor Hugo'}) -> Atualiza o valor da chave 'nome' para '
 pessoa.fromkeys(['nome', 'sobrenome'], ' ') -> Cria um dicionario com as chaves 'nome' e 'sobrenome' e o valor ' '
 
 """
+
+#Sets (Conjuntos)
+
+"""
+Sets são coleções de dados não ordenadas e sem elementos duplicados.
+Sets são mutáveis, mas seus elementos devem ser imutáveis.
+Sets são criados com chaves {} ou a função set().
+set1 = {1, 2, 3, 4, 5} ou set2 = set([1, 2, 3, 4, 5])
+
+Metodos uteis para sets:
+set1.add(6) -> Adiciona o elemento 6 ao set
+set1.remove(6) -> Remove o elemento 6 do set
+set1.discard(6) -> Remove o elemento 6 do set, se ele existir
+set1.pop() -> Remove um elemento aleatório do set
+set1.clear() -> Limpa o set
+
+set1.union(set2) ou set1 | set2 -> Retorna a união de set1 e set2
+set1.intersection(set2) ou set1 & set2 -> Retorna a interseção de set1 e set2
+set1.difference(set2) ou set1 - set2 -> Retorna a diferença de set1 e set2
+set1.symmetric_difference(set2) ou set1 ^ set2 -> Retorna a diferença simétrica de set1 e set2
+
+
+Sets são usados para remover duplicatas de uma lista e realizar operações de conjuntos.
+- eles não são indexados
+- seus valores são únicos
+- não garantem a ordem dos elementos
+- são interaveis com for, in, not in
+"""
