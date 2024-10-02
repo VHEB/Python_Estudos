@@ -40,7 +40,7 @@ Namespaces são uma ótima ideia - vamos fazer mais dessas!
 # Letra maiuscula na variável é uma convenção para constantes
 # Letra minuscula no inicio da variável é uma convenção são funções e variáveis
 # Conversão de tipos, Coerção, typecasting, type conversion, coercion = Conversão de um tipo para outro
-
+#Tabela Unicode -> https://unicode-table.com/pt/
 #_______________________________________________________________________________________________________________________
 
 #Funções e Classes Basicas

@@ -142,3 +142,23 @@ Sets são usados para remover duplicatas de uma lista e realizar operações de 
 - não garantem a ordem dos elementos
 - são interaveis com for, in, not in
 """
+
+#lambda
+"""
+Lambda é uma função anônima definida com a palavra-chave lambda.
+Lambda é usada para criar funções simples e de uma linha.
+Lambda é uma expressão, não uma declaração.
+lambda argumentos: expressão
+l1 = sorted(array, key=lambda x: x[1]) -> Ordena a lista array com base no segundo elemento de cada sublista
+"""
+# Exemplo 1: Filtrar uma lista de números para obter apenas os pares
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+pares = list(filter(lambda x: x % 2 == 0, numeros))
+print(pares)  # Saída: [2, 4, 6, 8, 10]
+
+# Exemplo 2: Ordenar uma lista de tuplas pelo segundo elemento
+tuplas = [(1, 'um'), (2, 'dois'), (3, 'tres'), (4, 'quatro')]
+ordenado = sorted(tuplas, key=lambda x: x[1])
+print(ordenado)  # Saída: [(4, 'quatro'), (2, 'dois'), (3, 'tres'), (1, 'um')]
+
+lambda x, y: x + y  # Função lambda que soma dois números
