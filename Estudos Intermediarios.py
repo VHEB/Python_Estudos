@@ -185,3 +185,20 @@ isinstance('texto', str) -> True
 isinstance([1, 2, 3], list) -> True
 
 """
+
+#hasttr
+"""
+hasattr -> Verifica se um objeto possui um atributo
+hasattr(objeto, 'atributo')
+"""
+
+#interable e iterator
+"""
+Iterable é um objeto que pode ser iterado.
+Iterator é um objeto que mantém o estado durante a iteração.
+iter() -> Converte um objeto iterável em um iterator
+next() -> Retorna o próximo elemento de um iterator
+__iter__() -> Método que retorna um iterator
+__next__() -> Método que retorna o próximo elemento de um iterator
+
+"""
