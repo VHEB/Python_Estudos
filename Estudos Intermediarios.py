@@ -162,3 +162,26 @@ ordenado = sorted(tuplas, key=lambda x: x[1])
 print(ordenado)  # Saída: [(4, 'quatro'), (2, 'dois'), (3, 'tres'), (1, 'um')]
 
 lambda x, y: x + y  # Função lambda que soma dois números
+
+#_______________________________________________________________________________________________________________________
+
+#list comprehension
+"""
+List comprehension é uma forma concisa de criar listas em Python.
+List comprehension é mais eficiente que loops tradicionais.
+List comprehension é uma expressão, não uma declaração.
+lista = [n ** 2 for n in range(10)] -> Cria uma lista com os quadrados dos números de 0 a 9
+Podemos usar if e else em list comprehension para filtrar elementos.
+lista = [n if n % 2 == 0 else 'impar' for n in range(10)] -> Cria uma lista com números pares e 'impar' para ímpares
+set = {n ** 2 for n in range(10)} -> Cria um set com os quadrados dos números de 0 a 9
+"""
+
+#isinstance
+"""
+isinstance é uma função que verifica se um objeto é de um determinado tipo.
+isinstance(objeto, tipo)
+isinstance(10, int) -> True
+isinstance('texto', str) -> True
+isinstance([1, 2, 3], list) -> True
+
+"""
