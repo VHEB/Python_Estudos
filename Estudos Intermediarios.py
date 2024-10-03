@@ -218,3 +218,26 @@ def generator()
         yield n #Pausa aqui
 """
 
+#map
+"""
+Map é uma função que aplica uma função a todos os itens de um iterável.
+Map retorna um iterator de resultados.
+map(funcao, iteravel)
+map(lambda x: x ** 2, [1, 2, 3, 4, 5]) -> [1, 4, 9, 16, 25]
+"""
+
+#Módulos e Pacotes
+"""
+Módulos são arquivos contendo funções, classes e variáveis.
+Pacotes são diretórios contendo módulos e um arquivo __init__.py.
+
+import modulo -> Importa um módulo
+from modulo import funcao -> Importa uma função de um módulo
+import modulo as md -> Importa um módulo com um apelido
+from modulo import * -> Importa todas as funções de um módulo
+https://docs.python.org/3/py-modindex.html
+
+import sys
+
+
+"""
