@@ -217,3 +217,4 @@ def generator()
     for n in range(100):
         yield n #Pausa aqui
 """
+

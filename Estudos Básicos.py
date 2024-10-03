@@ -234,11 +234,16 @@ while condição:
 """
 try: -> Tenta executar o bloco de código
 except: -> Caso ocorra um erro, executa o bloco de código
+    Existe classes de erro como ValueError, TypeError, ZeroDivisionError
 finally: -> Executa o bloco de código independente do resultado
 raise -> Lança uma exceção
 assert -> Testa se uma condição é verdadeira
 
 """
+#Rise -> Função que gera um erro
+#raise ValueError("Mensagem de erro")
+
+
 
 #Listas e Tuplas
 """
