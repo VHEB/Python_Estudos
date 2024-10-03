@@ -202,3 +202,18 @@ __iter__() -> Método que retorna um iterator
 __next__() -> Método que retorna o próximo elemento de um iterator
 
 """
+
+#generators
+"""
+Generators são funções que retornam um iterator.
+Generators são usados para criar iteradores de forma mais simples.
+Generators usam a palavra-chave yield em vez de return.
+Generators mantêm o estado da função durante a iteração.
+Generators não armazenam todos os valores na memória.
+Generators não tem indice, são iteraveis
+
+generator = (n for n in range(100))
+def generator()
+    for n in range(100):
+        yield n #Pausa aqui
+"""
