@@ -261,3 +261,4 @@ __init__.py é um arquivo que indica que um diretório é um pacote.
 __init__.py pode ser vazio ou conter código de inicialização.
 __all__ = ['modulo1', 'modulo2'] -> Lista de módulos a serem importados com from pacote import *
 """
+
