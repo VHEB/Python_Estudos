@@ -262,3 +262,42 @@ __init__.py pode ser vazio ou conter código de inicialização.
 __all__ = ['modulo1', 'modulo2'] -> Lista de módulos a serem importados com from pacote import *
 """
 
+#Variáveis livres e nonlocal
+"""
+Variáveis livres são variáveis definidas fora de uma função.
+Variáveis locais são variáveis definidas dentro de uma função.
+Variáveis nonlocal são variáveis definidas em uma função pai.
+Variáveis globais são variáveis definidas fora de funções.
+def funcao_pai():
+    variavel = 10
+    def funcao_filha():
+        nonlocal variavel
+        variavel = 20
+    funcao_filha()
+    print(variavel)  # Saída: 20
+"""
+
+#Decoradores
+"""
+Decoradores são funções que envolvem outras funções para adicionar funcionalidades.
+Decoradores permitem adicionar funcionalidades a funções existentes.
+Decoradores são usados para reutilizar código e adicionar metadados.
+def decorador(funcao):
+    def funcao_decorada():
+        print('Antes da função')
+        funcao()
+        print('Depois da função')
+    return funcao_decorada
+@decorador -> Aplica o decorador à função abaixo
+def minha_funcao():
+    print('Minha função')
+minha_funcao()  # Saída: Antes da função Minha função Depois da função
+"""
+#syntax sugar
+"""
+Syntax sugar é uma sintaxe mais simples para realizar uma tarefa.
+Syntax sugar não adiciona funcionalidades, apenas torna o código mais legível.
+Syntax sugar é usado para simplificar o código e torná-lo mais expressivo.
+@decorador -> Aplica o decorador à função abaixo
+"""
+
