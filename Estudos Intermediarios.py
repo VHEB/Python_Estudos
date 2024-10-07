@@ -239,5 +239,18 @@ https://docs.python.org/3/py-modindex.html
 
 import sys
 
+singleton -> Padrão de projeto que permite criar uma única instância de uma classe.
 
+import importlib -> Módulo que permite importar módulos em tempo de execução.
+importlib.reload(modulo) -> Recarrega um módulo
+
+"""
+
+#pacotes packege
+"""
+Pacotes são diretórios contendo módulos e um arquivo __init__.py.
+Pacotes são usados para organizar e reutilizar código.
+Pacotes são importados com a notação ponto.
+from pacote import modulo
+from pacote.subpacote import modulo
 """
