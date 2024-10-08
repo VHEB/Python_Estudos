@@ -300,4 +300,10 @@ Syntax sugar não adiciona funcionalidades, apenas torna o código mais legível
 Syntax sugar é usado para simplificar o código e torná-lo mais expressivo.
 @decorador -> Aplica o decorador à função abaixo
 """
-
+#zip e zip_longest
+""" 
+zip é uma função que combina duas ou mais sequências em uma lista de tuplas.
+zip_longest é uma função que combina duas ou mais sequências em uma lista de tuplas, preenchendo com um valor padrão.
+zip(seq1, seq2)
+zip_longest(seq1, seq2, fillvalue=0)
+"""
