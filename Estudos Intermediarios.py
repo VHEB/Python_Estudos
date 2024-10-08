@@ -323,3 +323,9 @@ combinations(iteravel, r)
 permutations(iteravel, r)
 product(iteravel1, iteravel2)
 """
+#grup by
+"""
+groupby é uma função que agrupa elementos de um iterável com base em uma chave.
+groupby(iteravel, key)
+from itertools import groupby
+"""
