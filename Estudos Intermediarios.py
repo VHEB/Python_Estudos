@@ -307,3 +307,8 @@ zip_longest é uma função que combina duas ou mais sequências em uma lista de
 zip(seq1, seq2)
 zip_longest(seq1, seq2, fillvalue=0)
 """
+# count interador infinito
+"""
+count é um iterador que retorna números inteiros indefinidamente.
+count(start=0, step=1)
+"""
