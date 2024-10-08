@@ -312,3 +312,14 @@ zip_longest(seq1, seq2, fillvalue=0)
 count é um iterador que retorna números inteiros indefinidamente.
 count(start=0, step=1)
 """
+
+#Combinations, permutations e product
+"""
+combinations é uma função que retorna combinações de um iterável.
+permutations é uma função que retorna permutações de um iterável.
+product é uma função que retorna o produto cartesiano de dois iteráveis.
+from itertools import combinations, permutations, product
+combinations(iteravel, r)
+permutations(iteravel, r)
+product(iteravel1, iteravel2)
+"""
