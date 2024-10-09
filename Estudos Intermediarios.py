@@ -329,3 +329,10 @@ groupby é uma função que agrupa elementos de um iterável com base em uma cha
 groupby(iteravel, key)
 from itertools import groupby
 """
+
+#filter 
+"""
+filter é uma função que filtra elementos de um iterável com base em uma função.
+filter(funcao, iteravel)
+filter(lambda x: x % 2 == 0, range(10))
+"""
