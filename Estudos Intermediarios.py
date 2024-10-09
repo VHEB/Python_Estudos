@@ -336,3 +336,11 @@ filter é uma função que filtra elementos de um iterável com base em uma fun�
 filter(funcao, iteravel)
 filter(lambda x: x % 2 == 0, range(10))
 """
+
+#reduce
+"""
+reduce é uma função que aplica uma função a pares de elementos de um iterável.
+reduce(funcao, iteravel)
+from functools import reduce
+reduce(lambda x, y: x + y, [1, 2, 3, 4, 5])
+"""
