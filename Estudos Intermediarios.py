@@ -344,3 +344,14 @@ reduce(funcao, iteravel)
 from functools import reduce
 reduce(lambda x, y: x + y, [1, 2, 3, 4, 5])
 """
+
+#funções recursivas e recursividade
+"""
+Funções recursivas são funções que chamam a si mesmas.
+Recursividade é o processo de uma função chamar a si mesma.
+Recursividade é usada para resolver problemas que podem ser divididos em casos menores.
+def fatorial(n):
+    if n == 0:
+        return 1
+    return n * fatorial(n - 1)
+"""
