@@ -1,0 +1,22 @@
+{
+  "nome": "João",
+  "sobrenome": "Silva",
+  "idade": 25,
+  "cidade": "São Paulo",
+  "endereco": [
+    {
+      "rua": "Rua A",
+      "numero": 100
+    },
+    {
+      "rua": "Rua B",
+      "numero": 200
+    }
+  ],
+  "dev": true,
+  "tecnologias": [
+    "Python",
+    "JavaScript",
+    "C#"
+  ]
+}

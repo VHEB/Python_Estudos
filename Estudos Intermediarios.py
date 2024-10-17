@@ -355,3 +355,57 @@ def fatorial(n):
         return 1
     return n * fatorial(n - 1)
 """
+
+#Criando Arquivos com Python
+"""
+Modos:
+r -> Leitura
+w -> Escrita
+a -> Adição
+r+ -> Leitura e Escrita
+w+ -> Escrita e Leitura
+a+ -> Adição e Leitura
+
+
+Metodos Uteis:
+write() -> Escreve um texto no arquivo
+writeLines() -> Escreve uma lista de texto no arquivo
+
+read() -> Lê o conteúdo do arquivo
+readline() -> Lê a primeira linha do arquivo
+readlines() -> Lê todas as linhas do arquivo
+
+close() -> Fecha o arquivo
+seek() -> Move o cursor para uma posição específica
+
+os.remove() -> Remove um arquivo
+os.unlink() -> Remove um arquivo
+os.rename() -> Renomeia um arquivo
+
+os.path.exists() -> Verifica se um arquivo existe
+os.path.getsize() -> Retorna o tamanho de um arquivo
+os.path.is_file() -> Verifica se é um arquivo
+os.path.is_dir() -> Verifica se é um diretório
+
+
+with open('teste.txt', 'w') as arquivo: -> Abre o arquivo e fecha automaticamente
+
+O modo 'b' é utilizado para arquivos binários
+O modo 'w' sobrescreve o arquivo
+O modo 'a' adiciona ao final do arquivo
+
+"""
+
+#JSON
+"""
+JSON (JavaScript Object Notation) é um formato de dados simples e leve.
+JSON é fácil de ler e escrever para humanos.
+JSON é fácil de analisar e gerar para máquinas.
+JSON é baseado em pares chave-valor.
+JSON é independente de linguagem.
+
+import json
+with open('arquivo.json', 'w') as arquivo:
+    json.dump(dados, arquivo, indent=4) -> Salva os dados no arquivo JSON
+    json.dumps(dados, indent=4) -> Retorna uma string JSON
+"""
