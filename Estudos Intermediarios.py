@@ -409,3 +409,27 @@ with open('arquivo.json', 'w') as arquivo:
     json.dump(dados, arquivo, indent=4) -> Salva os dados no arquivo JSON
     json.dumps(dados, indent=4) -> Retorna uma string JSON
 """
+
+#Guard Clause
+"""
+Guard Clause é uma técnica de programação defensiva.
+Guard Clause é uma condição de saída antecipada.
+Guard Clause é usada para evitar aninhamento excessivo de código.
+def funcao(a, b):
+    if not a:
+        return
+    if not b:
+        return
+    # Código da função
+"""
+
+#Controlando a quantidade de argumentos posicionais e nomeados em funções
+"""
+*args -> Ilimitados argumentos posicionais
+**kwargs -> Ilimitados argumentos nomeados
+Positional-only Parameters (/) -> Tudo antes da barra é posicional
+Keyword-only Parameters (*) -> Sozinho não suga argumentos posicionais
+def funcao(a, b, /, c, d, *, e, f):
+    print(a, b, c, d, e, f)
+funcao(1, 2, 3, 4, e=5, f=6)
+"""
