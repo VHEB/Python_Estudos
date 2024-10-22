@@ -40,3 +40,43 @@ class Lampada:
 #__dict__ -> Retorna um dicionário com os atributos do objeto
 # print(l1.__dict__)
 # vars(l1) -> Retorna um dicionário com os atributos do objeto
+
+#Propriedades que começam com __ são privadas
+#Propriedades que começam com @ são protegidas
+"""
+@classmethod -> Método de classe (não precisa de uma instância para ser chamado)
+@staticmethod -> Método estático (não precisa de uma instância e nem da classe para ser chamado)
+
+"""
+
+#Metodos de Classe + Factory Method
+class ContaCorrente:
+    contador = 4999
+
+    def __init__(self, limite, saldo):
+        self.numero = ContaCorrente.contador + 1
+        self.limite = limite
+        self.saldo = saldo
+        ContaCorrente.contador = self.numero
+
+    def sacar(self, valor):
+        if valor > self.saldo + self.limite:
+            print('Saldo insuficiente')
+            return
+        self.saldo -= valor
+        self.detalhes()
+
+    def depositar(self, valor):
+        self.saldo += valor
+        self.detalhes()
+
+    def detalhes(self):
+        print(f'Número: {self.numero}\nSaldo: {self.saldo}\nLimite: {self.limite}')
+
+    @staticmethod
+    def codigo_banco():
+        return '001'
+
+    @staticmethod
+    def codigos_bancos():
+        return {'BB':'001', 'Caixa':'104', 'Bradesco':'237'}
