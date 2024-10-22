@@ -32,3 +32,11 @@ class Lampada:
             self.ligada = False
         else:
             self.ligada = True
+
+# __str__ -> Método especial que retorna uma string
+    def __str__(self):
+        return f'{self.voltagem}V está ligada: {self.ligada}'
+
+#__dict__ -> Retorna um dicionário com os atributos do objeto
+# print(l1.__dict__)
+# vars(l1) -> Retorna um dicionário com os atributos do objeto
