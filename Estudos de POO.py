@@ -80,3 +80,18 @@ class ContaCorrente:
     @staticmethod
     def codigos_bancos():
         return {'BB':'001', 'Caixa':'104', 'Bradesco':'237'}
+
+#@property -> Permite criar métodos que podem ser acessados como atributos
+    @property
+    def limite(self):
+        return self.__limite
+
+    @limite.setter
+    def limite(self, valor):
+        self.__limite = valor
+
+#Um getter no modo pythonico
+#Modo Pythonico é o modo mais correto de se fazer algo em Python -> Pythonic Way
+
+
+#_______________________________________________________________________________________________________________________
