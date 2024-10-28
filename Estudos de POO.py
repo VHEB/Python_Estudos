@@ -97,3 +97,28 @@ class ContaCorrente:
 
 
 #_______________________________________________________________________________________________________________________
+
+
+
+#Pilares da POO
+"""
+Encapsulamento -> Em POO, os detalhes de implementação de um objeto são escondidos e cada objeto interage com outros
+objetos através de uma interface bem definida
+Abstração -> Em POO, objetos do mundo real são representados computacionalmente
+Herança -> Em POO, a ideia de herança é a capacidade de criar uma classe que herda atributos e métodos de uma classe
+existente
+Polimorfismo -> Em POO, polimorfismo é a capacidade de um objeto poder ser referenciado de várias formas
+"""
+
+#Encapsulamento
+"""
+Em Python, por convenção, é utilizado um underline para indicar que um atributo é privado
+Python não tem modificadores de acesso
+Por convensão é usando assim:
+Sem underline -> Público
+Um underline -> Protegido
+Dois underlines -> Privado
+
+_Protegido -> Só deve ser acessado por subclasses e classes
+__Privado -> Só deve ser acessado pela própria classe
+"""
