@@ -92,6 +92,8 @@ class ContaCorrente:
 
 #Um getter no modo pythonico
 #Modo Pythonico é o modo mais correto de se fazer algo em Python -> Pythonic Way
+# Setter -> Método que altera o valor de um atributo
+# Getter -> Método que acessa o valor de um atributo
 
 
 #_______________________________________________________________________________________________________________________
