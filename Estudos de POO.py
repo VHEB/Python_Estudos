@@ -122,3 +122,18 @@ Dois underlines -> Privado
 _Protegido -> Só deve ser acessado por subclasses e classes
 __Privado -> Só deve ser acessado pela própria classe
 """
+
+
+#Herança
+""" 
+Classe Principal
+    -> super class, base class, parent class
+Classe Filha
+    -> sub class, derived class, child class
+
+class NomeDaClasse(Pai):
+    def __init__(self, atributos):
+        super().__init__(atributos) -> Chama o construtor da classe pai
+"""
+#Super -> Chama o construtor da classe pai
+#mro -> Method Resolution Order -> Ordem de execução dos métodos
