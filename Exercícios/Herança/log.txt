@@ -1,0 +1,9 @@
+ERROR: teste (LogFileMixin)ERROR: teste (LogFileMixin)
+ERROR: teste (LogFileMixin)/nERROR: teste (LogFileMixin)/nSUCCESS: teste (LogFileMixin)/nSUCCESS: Galaxy S10 ligado (Smartphone)/nERROR: iPhone X desligado (Smartphone)/nSUCCESS: Galaxy S10 ligado (Smartphone)
+ERROR: iPhone X desligado (Smartphone)
+SUCCESS: Galaxy S10 ligado (Smartphone) 
+ERROR: iPhone X desligado (Smartphone) 
+ 
+SUCCESS: Galaxy S10 ligado (Smartphone) 
+ 
+ERROR: iPhone X desligado (Smartphone) 
