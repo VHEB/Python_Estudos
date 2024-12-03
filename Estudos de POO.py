@@ -137,3 +137,15 @@ class NomeDaClasse(Pai):
 """
 #Super -> Chama o construtor da classe pai
 #mro -> Method Resolution Order -> Ordem de execução dos métodos
+
+
+#Classe Abstract 
+"""
+from abc import ABC, abstractmethod
+
+class ClasseAbstrata(ABC):
+    @abstractmethod -> Método abstrato
+    def metodo_abstrato(self): 
+        pass
+
+"""
