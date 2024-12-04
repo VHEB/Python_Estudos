@@ -147,5 +147,5 @@ class ClasseAbstrata(ABC):
     @abstractmethod -> Método abstrato
     def metodo_abstrato(self): 
         pass
-
+        
 """
