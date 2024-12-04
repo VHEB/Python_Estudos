@@ -149,3 +149,16 @@ class ClasseAbstrata(ABC):
         pass
         
 """
+
+#SOLID
+"""
+S -> Single Responsibility Principle -> Uma classe deve ter um, e somente um, motivo para mudar
+O -> Open/Closed Principle -> Uma classe deve estar aberta para extensão, mas fechada para modificação
+L -> Liskov Substitution Principle -> Objetos de uma superclasse devem ser substituíveis por objetos de suas subclasses
+I -> Interface Segregation Principle -> Muitas interfaces específicas são melhores do que uma interface única
+D -> Dependency Inversion Principle -> Dependa de abstrações e não de implementações
+"""
+
+#Sobrecarga de Métodos (overload) = Python não suporta
+#Sobrescrita de Métodos (override) = Python suporta
+
