@@ -173,3 +173,7 @@ except Exception as e:
 """
 # .addnote -> Adiciona uma nota
 #Traceback -> Rastreamento de exceções
+
+#Dunder Methods, Magic Methods, Special Methods
+#https://rszalski.github.io/magicmethods/ 
+#https://docs.python.org/3/reference/datamodel.html#special-method-names
