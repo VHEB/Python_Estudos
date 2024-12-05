@@ -171,5 +171,5 @@ except Exception as e:
     pass
 
 """
-
+# .addnote -> Adiciona uma nota
 #Traceback -> Rastreamento de exceções
