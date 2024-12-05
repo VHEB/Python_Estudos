@@ -162,3 +162,14 @@ D -> Dependency Inversion Principle -> Dependa de abstrações e não de impleme
 #Sobrecarga de Métodos (overload) = Python não suporta
 #Sobrescrita de Métodos (override) = Python suporta
 
+#Exceptions
+#https://docs.python.org/3/library/exceptions.html
+"""
+try:
+    pass
+except Exception as e:
+    pass
+
+"""
+
+#Traceback -> Rastreamento de exceções
